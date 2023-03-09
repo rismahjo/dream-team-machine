@@ -1,0 +1,17 @@
+body {
+    font-family: Georgia, serif;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+.team-profile-header {
+    background-color: purple;
+    padding: 2rem;
+}
+
+.employee-header {
+    background-color: blueviolet;
+}
