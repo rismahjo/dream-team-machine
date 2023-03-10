@@ -15,6 +15,10 @@ A node based application that generates an html presenting information about tea
 
 ## Demonstration
 
+
+https://user-images.githubusercontent.com/113956697/224221046-53047462-779e-4cac-b1db-84c9076a609d.mp4
+
+
 ## Installation
 You must install NodeJs and the required modules using  <code>npm install</code>
 
