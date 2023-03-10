@@ -68,11 +68,11 @@ function addManager() {
             {
                 type: 'input',
                 name: 'officeNumber',
-                message: 'What is the office number of the team manager?'
+                message: 'What is the office number of the team manager?',
             },
         ])
         .then((val) => {
-            const manager = new Manager(val.name, val.id, val.imgSrc, val.officeNumber);
+            const manager = new Manager(val.name, val.id, val.email, val.imgSrc, val.officeNumber);
             console.table(manager);
             teamMembers.push(manager);
             addTeamMember();
@@ -113,6 +113,7 @@ function addEngineer() {
         .then((val) => {
             const engineer = new Engineer(val.name, val.id, val.email, val.imgSrc, val.gitHub);
             console.table(engineer);
+            teamMembers.push(engineer);
             addTeamMember();
         });
 }
